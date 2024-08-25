@@ -195,10 +195,12 @@ header {
 
 footer {
     margin-top: 3%;
-    text-align: center;
+    text-align: center; 
     padding: 1%;
+    background-color: #ccc; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
-
 
 .sky-floor-plan{
     padding-top: 100px;
