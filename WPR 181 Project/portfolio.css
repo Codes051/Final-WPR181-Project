@@ -27,7 +27,6 @@ header {
 }
 
 .main-title {
-    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 75);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -52,39 +51,43 @@ header {
     color: rgb(0, 0, 75);
     text-align: center;
     margin-bottom: 20px; 
-    padding-left: 400px;
+    padding-left: 0; 
 }
 
 .container img {
     display: block;
     margin: 0 auto;  
-    max-width: 80%; 
+    max-width: 100%; 
     height: auto; 
     border-radius: 20px;
     padding: 1%;
 }
 
 .floor-plan {
-    width: 70%;
-    padding-right: 2000px;
+    width: 100%;
+    padding-right: 0; 
 }
 
 .victorian-text {
     padding-top: 50px;
-    padding-right: 400px;
+    padding-right: 0; 
 }
 
 .vic-house-text {
-    padding-right: 400px;
+    padding-right: 0; 
 }
 
 .apartment-text {
     padding-top: 100px;
-    padding-right: 350px;
+    padding-right: 0; 
 }
 
 .floor-plan {
     border-radius: 40%;
+}
+
+.victorian-house {
+    padding-right: 0; 
 }
 
 .container p {
@@ -144,12 +147,12 @@ header {
     padding: 10px 15px; 
 }
 
+.navbar ul li a:hover {
+    color: #000; 
+    background-color: #ddd; 
+    border-radius: 5px; 
+}
 
-    .navbar ul li a:hover {
-        color: #000; 
-        background-color: #ddd; 
-        border-radius: 5px; 
-    }
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -202,11 +205,12 @@ footer {
     box-sizing: border-box; 
 }
 
-.sky-floor-plan{
+.sky-floor-plan {
     padding-top: 100px;
 }
 
-.sky-floor-text{
-    padding-right: 320px;
+.sky-floor-text {
+    padding-right: 0; 
     padding-top: 100px;
 }
+
