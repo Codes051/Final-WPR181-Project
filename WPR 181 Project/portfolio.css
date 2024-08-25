@@ -84,10 +84,12 @@ header {
 
 .floor-plan {
     border-radius: 40%;
+    width: 800px;
 }
 
 .victorian-house {
     padding-right: 0; 
+
 }
 
 .container p {
@@ -145,6 +147,11 @@ header {
     transition: color 0.3s, background-color 0.3s;
     font-size: 25px;
     padding: 10px 15px; 
+}
+
+.modern-apart-text{
+   margin-left: 200px;
+
 }
 
 .navbar ul li a:hover {
