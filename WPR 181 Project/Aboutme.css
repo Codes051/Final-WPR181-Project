@@ -34,7 +34,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: rgb(33, 71, 106);
+  background-color: #ddd;
   color: black;
 }
 
