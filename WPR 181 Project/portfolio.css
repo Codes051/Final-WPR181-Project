@@ -21,7 +21,7 @@ header {
     align-items: center;
     padding: 10px;
     width: 100%; 
-    background-color: #ccc; 
+    background-color: #333; 
     box-shadow: 0 0 15px rgb(109, 115, 116);
     box-sizing: border-box;
 }
@@ -125,7 +125,8 @@ header {
 
 .navbar {
     font-size: 100px;
-    padding-right: 230px;
+    padding-left: 1500px;
+   
 }
 
 .navbar ul {
@@ -143,7 +144,7 @@ header {
     text-decoration: none;
     font-family: 'Anek Devanagari', sans-serif;
     font-weight: 600;
-    color: #333;
+    color: #f7f7f7;
     transition: color 0.3s, background-color 0.3s;
     font-size: 25px;
     padding: 10px 15px; 
@@ -158,6 +159,7 @@ header {
     color: #000; 
     background-color: #ddd; 
     border-radius: 5px; 
+    
 }
 
 @media (max-width: 768px) {
@@ -221,3 +223,41 @@ footer {
     padding-top: 100px;
 }
 
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1.5%;
+
+  }
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .previous, .next {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 10px; 
+
+}
+.navigation-buttons {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 1350px;
+}
+  .round {
+    border-radius: 100%;
+  }
+  .navbar a.active{
+    background-color: #f7f7f7;
+    color: black;
+
+  }
