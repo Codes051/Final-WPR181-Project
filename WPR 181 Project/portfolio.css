@@ -24,6 +24,7 @@ header {
     background-color: #333; 
     box-shadow: 0 0 15px rgb(109, 115, 116);
     box-sizing: border-box;
+    position: fixed;
 }
 
 .main-title {
@@ -60,6 +61,7 @@ header {
     max-width: 100%; 
     height: auto; 
     border-radius: 20px;
+
     padding: 1%;
 }
 
@@ -70,11 +72,11 @@ header {
 
 .victorian-text {
     padding-top: 50px;
-    padding-right: 0; 
 }
 
 .vic-house-text {
-    padding-right: 0; 
+
+    padding-left: 50px;
 }
 
 .apartment-text {
@@ -126,7 +128,7 @@ header {
 .navbar {
     font-size: 100px;
     padding-left: 1500px;
-   
+  
 }
 
 .navbar ul {
@@ -154,6 +156,8 @@ header {
    margin-left: 200px;
 
 }
+
+
 
 .navbar ul li a:hover {
     color: #000; 
@@ -261,3 +265,4 @@ a {
     color: black;
 
   }
+
