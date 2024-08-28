@@ -213,7 +213,7 @@ footer {
     margin-top: 3%;
     text-align: center; 
     padding: 1%;
-    background-color: #ccc; 
+    background-color: #333; 
     width: 100%; 
     box-sizing: border-box; 
 }
@@ -266,3 +266,11 @@ a {
 
   }
 
+.hr-line{
+    background-color: white;
+}
+
+footer p{
+    padding-top: 10px;
+    color: white;
+}
